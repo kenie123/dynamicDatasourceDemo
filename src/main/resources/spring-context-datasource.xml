@@ -43,7 +43,7 @@
 		<property name="maxIdleTime" value="60000" />
 	</bean>
 	
-	<bean id="dataSource" class="com.bkc.core.datasource.DynamicDataSource">
+	<bean id="dataSource" class="com.bkc.core.DynamicDataSource">
 		<property name="targetDataSources">
 			<map key-type="java.lang.String">
 				<entry key="dataSourceMySql" value-ref="dataSourceMySql" />
